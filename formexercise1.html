@@ -1,49 +1,30 @@
-<a href="#" class="previous round">&#8249;</a>
-<a href="#" class="next round">&#8250;</a>
+<html>  
+    <body>
+    <head><head><link rel="stylesheet" type="text/css" href="style.css"></head></head>
+
+            <a href="#" class="previous round">&#8249;</a>
+            <a href="formexercise2.html" class="next round">&#8250;</a>
 <style>
-    a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 8px 16px;
-    }
-
-    a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .previous {
-        background-color: #f1f1f1;
-        color: black;
-    }
-
-    .next {
-        background-color: #4CAF50;
-        color: white;
-    }
-
-    .round {
-        border-radius: 50%;
-    }
 </style>
 <fieldset>
-    <legend><b>Personal information</b></legend>
+    <legend><b>Part 1: Personal information</b></legend>
     <form action="">
-            <label>First name:</label>
+        <label>1.1 Full English name as in passport</label>   
+        <label>First name:</label>
         <input type="text" name="fname">
         <label> Middle name:</label>
         <input type="text" name="mname">
         <label>Last name:</label>
         <input type="text" name="lname">
-        <label for="gender">Sex:</label>
-        <input type="radio" name="gender" value="female" checked> Female
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="other"> Other
-        <label>Chinese name:</label>
+        <label>1.2 Name in Chinese:</label>
             <input type="text" name="cname"></div>
-        <label>Other name:</label>
+        <label>1.3 Other name(s):</label>
             <input type="text" name="moname"></div>
-         <label>Date of Birth:</label>
+            <label for="gender">1.4 Sex:</label>
+            <input type="radio" name="gender" value="female" checked> Female
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="other"> Other
+            <label>1.5 Date of Birth:</label>
         <select name="month">
             <option value="jan">January</option>
             <option value="feb">February</option>
@@ -117,54 +98,54 @@
             <option value="1999">1999</option>
             <option value="2000">2000</option>
         </select>
-        <label> Current nationality(ies):</label>
+        <label>1.6 Current nationality(ies):</label>
         <input type="text" name="cnation">
-        <label>Former nationality(ies):</label>
+        <label>1.7 Former nationality(ies):</label>
         <input type="text" name="fnation">
-        <label>Place of Birth:</label>
+        <label>1.8 Place of Birth:</label>
         <input type="text" name="pob">
-        <label>Local ID/ Citizenship number</label>
+        <label>1.9 Local ID/ Citizenship number</label>
         <input type="text" name="ID">
-        <label>Passport/ Travel document type:</label>
+        <label>1.10 Passport/ Travel document type:</label>
         <input type="radio" name="travel" value="diplomatic"> Diplomatic
         <input type="radio" name="travel" value="service"> Service or Official
         <input type="radio" name="travel" value="ordinary"> Ordinary
         <input type="radio" name="travel" value="other"> Other (please specify)
-         <label>Passport number:</label>
+         <label>1.11 Passport number:</label>
         <input type="text" name="pnumber">
         <form action="">
-            <label>Date of issue:</label>
+            <label>1.12 Date of issue:</label>
             <input type="date" name="bday">
         </form>
-        <label>Place of issue:</label>
+        <label>1.13 Place of issue:</label>
         <input type="text" name="poi">
         <form action="">
-            <label>Date of expiry:</label>
+            <label>1.14 Date of expiry:</label>
             <input type="date" name="bday">
         </form>
-       <form action=""><label>Current occupation(s):</label>
+       <form action=""><label>1.15 Current occupation(s):</label>
         <input type="radio" name="occ" value="business"> Businessperson
         <input type="radio" name="occ" value="cemployee"> Company employee
         <input type="radio" name="occ" value="entertainer"> Entertainer
         <input type="radio" name="occ" value="inagworker"> Industrial/Agricultural worker
         <input type="radio" name="occ" value="student"> Student
         <input type="radio" name="occ" value="cmember"> Crew member
-        <input type="radio" name="occ" value="semployed"> Self-employedd
+        <input type="radio" name="occ" value="semployed"> Self-employed
         <input type="radio" name="occ" value="unemployed"> Unemployed
         <input type="radio" name="occ" value="retired"> Retired
         <input type="radio" name="occ" value="parliament"> Former/incumbent member of parliament
-        <input type="radio" name="occ" value="government"> Former/incumbent government offical
+        <input type="radio" name="occ" value="government"> Former/incumbent government official
         <input type="radio" name="occ" value="militia"> Military personnel
         <input type="radio" name="occ" value="ngo"> NGO staff
         <input type="radio" name="occ" value="religious"> Religious personnel
         <input type="radio" name="occ" value="media"> Staff of Media
         <input type="radio" name="occ" value="other"> Other
             </form> 
-             <label>Education:</label>
+             <label>1.16 Education:</label>
              <input type="radio" name="occ" value="pgrad"> Postgraduate
              <input type="radio" name="occ" value="college"> College
              <input type="radio" name="occ" value="other"> (Please specify): 
-   <form> <label>Employer/School</label>
+   <form> <label>1.17 Employer/School</label>
     <label> Name:</label>
     <input type="text" name="name">
     <label> Phone number:</label>
@@ -174,21 +155,82 @@
         <label> Zip code:</label>
         <input type="text" name="zipcode">
    </form>
-        <form> <label>Home address</label>
+        <form> <label>1.18 Home address:</label>
         <input type="text" name="haddress">
-        <label>Zip Code</label>
+        <label>1.19 Zip Code</label>
         <input type="text" name="zipcode">
-        <label>Home/mobile phone number</label>
+        <label>1.20 Home/mobile phone number</label>
         <input type="text" name="pnumber">
-        <label>E-mail address</label>
+        <label>1.21 E-mail address</label>
         <input type="text" name="email">
         </form>
     <form>
-        <label>Marital status</label>
+        <label>1.22 Marital status:</label>
         <input type="radio" name="married" value="married"> Married
         <label>Single</label>
         <input type="radio" name="single" value="married"> Single
         <label>Other</label>
         <input type="radio" name="email" value="email">E-mail address
-</form>    
-    
+</form>
+<label>1.23 Major family members (spouse, children, parents,etc., may type on seperate paper) </label>    
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Nationality</th>
+      <th>Occupation</th>
+      <th>Relationship</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <label>1.24 Emergency Contact</label><br><br>
+        <label>Name:</label>
+        <input type="text" name="name">
+    <label>Mobile phone number:</label>
+    <input type="text" name="mobile">
+    <label>Relationship with the applicant:</label>
+        <input type="text" name="applic">
+        <label>1.25 Country or territory where the applicant is located when applying for this visa:</label>
+        <input type="text" name="location">
+  
+  
+    </body>
+  
+  
+  </fieldset>
+  </html>
